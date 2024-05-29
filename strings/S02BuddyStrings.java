@@ -70,7 +70,7 @@ public class S02BuddyStrings {
             return false;
         if (idx2 == -1 && idx1 != -1)
             return false;
-        //swap and return if true/false
+        // swap and return if true/false
         if (idx1 != -1 && idx2 != -1) {
             char[] c = s.toCharArray();
             char t = c[idx1];
