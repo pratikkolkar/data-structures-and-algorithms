@@ -30,7 +30,14 @@ public class Arrays14LongestConsecutiveOne {
         int[] nums ={1,1,0,1,1,1};
         findMaxConsecutiveOnes(nums);
     }
-
+    
+    /* 
+     * Observation:
+     * We can use two pointer technique
+     * 
+     * TC: O(N)
+     * SC: O(1)
+     */
     public static void findMaxConsecutiveOnes(int[] nums) {
         int i = 0, j = 0, max = 0;
         while (j < nums.length) {
